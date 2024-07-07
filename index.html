@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+    <div class="titulo">
+        <h1>Todo List</h1>
+        <hr>
+    </div>
+    <div class="container2">
+    <div class="inputentrada">
+    <input type="text" id="inputTareas" placeholder="Escribe una tarea">
+    <button id="agregarTareas" class="boton-agregar">Agregar Tarea</button>
+    </div>
+    <div class="listado-tareas">
+
+    <div class="contabilizadortareas">
+
+    <p id="cuentaTareas">Total de tareas: 0 </p>
+    <p id="tareasRealizadas">Realizadas: </p>
+</div>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tarea</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="listadoTareas"></tbody>
+    </table>
+
+    <div id="contadores">
+
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+<script src="./assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/004bf02445.js" crossorigin="anonymous"></script>
+</body>
+</html>
